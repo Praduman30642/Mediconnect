@@ -1,8 +1,6 @@
 package com.wecp.progressive.entity;
 
 public class Clinic {
-<<<<<<< HEAD
-=======
     private int clinicId;
     private String clinicName;
     private String location;
@@ -59,6 +57,5 @@ public class Clinic {
 
     
     
->>>>>>> 7603ec2f6743607f5e49d6bbf1d40a165102e9a1
 
 }

@@ -1,8 +1,5 @@
 package com.wecp.progressive.dao;
 
-<<<<<<< HEAD
-public class PatientDAOImpl {
-=======
 import java.util.List;
 
 import com.wecp.progressive.entity.Patient;
@@ -34,6 +31,5 @@ public class PatientDAOImpl implements PatientDAO {
     public List<Patient> getAllPatients() {
         return List.of();
     }
->>>>>>> 7603ec2f6743607f5e49d6bbf1d40a165102e9a1
 
 }

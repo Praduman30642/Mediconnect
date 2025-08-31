@@ -1,8 +1,5 @@
 package com.wecp.progressive.service.impl;
 
-<<<<<<< HEAD
-public class DoctorServiceImplJdbc  {
-=======
 import java.util.List;
 
 import com.wecp.progressive.dao.DoctorDAO;
@@ -45,6 +42,5 @@ public class DoctorServiceImplJdbc implements DoctorService  {
     {
         
     }
->>>>>>> 7603ec2f6743607f5e49d6bbf1d40a165102e9a1
 
 }

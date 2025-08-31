@@ -1,9 +1,5 @@
 package com.wecp.progressive.dao;
 
-<<<<<<< HEAD
-
-public class DoctorDAOImpl {
-=======
 import java.util.List;
 
 import com.wecp.progressive.entity.Clinic;
@@ -39,7 +35,6 @@ public class DoctorDAOImpl implements DoctorDAO {
 
    
 
->>>>>>> 7603ec2f6743607f5e49d6bbf1d40a165102e9a1
 
 
 

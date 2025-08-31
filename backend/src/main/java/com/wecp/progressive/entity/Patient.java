@@ -1,12 +1,9 @@
 package com.wecp.progressive.entity;
 
-<<<<<<< HEAD
-public class Patient {
-=======
 
 import java.util.Date;
 
-public class Patient {
+public class Patient implements Comparable<Patient> {
     private int patientId;
     private String fullName;
     private Date dateOfBirth;
@@ -60,10 +57,13 @@ public class Patient {
     public void setAddress(String address) {
         this.address = address;
     }
+    @Override
+    public int compareTo(Patient otherPatient) {
+        return this.getFullName().compareTo(otherPatient.getFullName());
+        }
     
     
 
 
->>>>>>> 7603ec2f6743607f5e49d6bbf1d40a165102e9a1
 
 }

@@ -1,9 +1,5 @@
 package com.wecp.progressive.config;
 
-<<<<<<< HEAD
-public class DatabaseConnectionManager {
-
-=======
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -45,5 +41,4 @@ public static Connection getConnection() throws SQLException {
     }
     return DriverManager.getConnection(url, user, password);
 }
->>>>>>> 7603ec2f6743607f5e49d6bbf1d40a165102e9a1
 }
